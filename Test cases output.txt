@@ -1,0 +1,289 @@
+addr 0: 0
+addr 1: 1
+addr 2: 2
+addr 3: 3
+addr 4: 4
+addr 5: 5
+addr 6: 6
+addr 7: 7
+addr 8: 8
+addr 9: 9
+addr 10: 10
+addr 11: 11
+The miss ratios for memgen 1:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.25
+0.166667
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.0833333
+LRU: 0.0833333
+LFU: 0.0833333
+Random: 0.0833333
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+
+addr 0: 95291
+addr 1: 41855
+addr 2: 127388
+addr 3: 87463
+addr 4: 45196
+addr 5: 35654
+addr 6: 121437
+addr 7: 119120
+addr 8: 99577
+addr 9: 56653
+addr 10: 23189
+addr 11: 18776
+The miss ratios for memgen 2:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+1
+1
+1
+1
+1
+1
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+1
+1
+1
+1
+1
+1
+1
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+1
+1
+1
+1
+1
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 1
+LRU: 1
+LFU: 1
+Random: 1
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+1
+1
+1
+1
+
+addr 0: 53810273
+addr 1: 37943413
+addr 2: 6924328
+addr 3: 27377853
+addr 4: 22746943
+addr 5: 34583200
+addr 6: 45979746
+addr 7: 56531887
+addr 8: 40872586
+addr 9: 65548770
+addr 10: 23302519
+addr 11: 64490723
+The miss ratios for memgen 3:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+1
+1
+1
+1
+1
+1
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+1
+1
+1
+1
+1
+1
+1
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+1
+1
+1
+1
+1
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 1
+LRU: 1
+LFU: 1
+Random: 1
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+1
+1
+1
+1
+
+addr 0: 0
+addr 1: 1
+addr 2: 2
+addr 3: 3
+addr 4: 4
+addr 5: 5
+addr 6: 6
+addr 7: 7
+addr 8: 8
+addr 9: 9
+addr 10: 10
+addr 11: 11
+The miss ratios for memgen 4:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.25
+0.166667
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.0833333
+LRU: 0.0833333
+LFU: 0.0833333
+Random: 0.0833333
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+
+addr 0: 0
+addr 1: 1
+addr 2: 2
+addr 3: 3
+addr 4: 4
+addr 5: 5
+addr 6: 6
+addr 7: 7
+addr 8: 8
+addr 9: 9
+addr 10: 10
+addr 11: 11
+The miss ratios for memgen 5:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.25
+0.166667
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.0833333
+LRU: 0.0833333
+LFU: 0.0833333
+Random: 0.0833333
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.0833333
+0.0833333
+0.0833333
+0.0833333
+
+addr 0: 256
+addr 1: 512
+addr 2: 768
+addr 3: 1024
+addr 4: 1280
+addr 5: 1536
+addr 6: 1792
+addr 7: 2048
+addr 8: 2304
+addr 9: 2560
+addr 10: 2816
+addr 11: 3072
+The miss ratios for memgen 6:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+1
+1
+1
+1
+1
+1
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+1
+1
+1
+1
+1
+1
+1
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+1
+1
+1
+1
+1
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 1
+LRU: 1
+LFU: 1
+Random: 1
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+1
+1
+1
+1
+
+Press any key to continue . . .

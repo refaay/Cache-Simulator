@@ -1,0 +1,217 @@
+The miss ratios for memgen 1:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.25
+0.125
+0.0625
+0.03125
+0.015625
+0.007813
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.0625
+0.0625
+0.0625
+0.0625
+0.0625
+0.0625
+0.0625
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.03125
+0.03125
+0.03125
+0.03125
+0.03125
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.03125
+LRU: 0.03125
+LFU: 0.03125
+Random: 0.03125
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.03125
+0.03125
+0.03125
+0.03125
+
+The miss ratios for memgen 2:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.507661
+0.50353
+0.501895
+0.500991
+0.500397
+0.499906
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.992021
+0.984218
+0.968532
+0.937495
+0.875427
+0.750348
+0.501895
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.992187
+0.984455
+0.968809
+0.93766
+0.874896
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.968776
+LRU: 0.968789
+LFU: 0.968739
+Random: 0.968809
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.50066
+0.500569
+0.501335
+0.499913
+
+The miss ratios for memgen 3:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.999034
+0.999017
+0.999046
+0.998998
+0.998986
+0.999012
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.999988
+0.999973
+0.999945
+0.999878
+0.999762
+0.99952
+0.999046
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.999983
+0.999967
+0.999939
+0.999866
+0.999762
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.999943
+LRU: 0.999943
+LFU: 0.999944
+Random: 0.999939
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.998993
+0.998989
+0.999027
+0.999005
+
+The miss ratios for memgen 4:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.000256
+0.000128
+6.4e-005
+3.2e-005
+1.6e-005
+7.99999e-006
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+6.4e-005
+6.4e-005
+6.4e-005
+6.4e-005
+6.4e-005
+6.4e-005
+6.4e-005
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+3.2e-005
+3.2e-005
+3.2e-005
+3.2e-005
+3.2e-005
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 3.2e-005
+LRU: 3.2e-005
+LFU: 3.2e-005
+Random: 3.2e-005
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+3.2e-005
+3.2e-005
+3.2e-005
+3.2e-005
+
+The miss ratios for memgen 5:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+0.016384
+0.008192
+0.004096
+0.002048
+0.001024
+0.000512
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+0.0625
+0.0625
+0.0625
+0.0625
+0.0625
+0.0625
+0.004096
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+0.03125
+0.03125
+0.03125
+0.031243
+0.030668
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 0.03125
+LRU: 0.03125
+LFU: 0.029345
+Random: 0.03125
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+0.002048
+0.002048
+0.002048
+0.002048
+
+The miss ratios for memgen 6:
+Experiment 1: Direct Mapping:
+a) The following 6 are: Cache Size= 64; Line Size varies from 4-128 bytes:
+1
+1
+1
+1
+1
+1
+b) The following 7 are: Line Size= 16 bytes; Cache Size varies from 1-64 Kbs:
+1
+1
+1
+1
+1
+1
+1
+Experiment 2: Full Associative:
+a)The following 5 are: Line Size= 32 bytes; Random Replacement; Cache Size varies from 1-16 Kbs:
+1
+1
+1
+1
+1
+b) The following 4 are: Line Size= 32 bytes; Cache Size = 4 KB; Replacement way varies:
+FIFO: 1
+LRU: 1
+LFU: 0.999619
+Random: 1
+Experiment 3: Set Associative:
+The following 4 are: Line Size = 32 bytes; Random Replacement; Cache Size = 64 KB; Number of ways varies from 2-16:
+1
+1
+1
+1
+
+Press any key to continue . . .
